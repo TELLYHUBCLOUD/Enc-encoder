@@ -28,7 +28,7 @@ async def start_command(bot, message):
         chat_id=message.chat.id,
         text=txt,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("DEV", url="t.me/SamXD7")]]),
+            [[InlineKeyboardButton("TELLYHUB", url="t.me/TELLYHUBSUPPORTS")]]),
         reply_to_message_id=message.id,
     )
 
@@ -51,7 +51,7 @@ async def set_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -63,7 +63,7 @@ async def uptype_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -75,7 +75,7 @@ async def ffmpeg_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -87,7 +87,7 @@ async def mode_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -99,7 +99,7 @@ async def upload_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -111,7 +111,7 @@ async def download_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -123,7 +123,7 @@ async def info_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -135,7 +135,7 @@ async def simp_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -147,7 +147,7 @@ async def vshot_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
@@ -159,7 +159,7 @@ async def status_command(bot, message):
     if message.chat.id not in (Config.AUTH_USERS + Config.ADMIN +
                                Config.OWNER):
         return await message.reply_text(
-            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/SamXD7)**",
+            "🚫 **You Are Not Authorized To Use This Bot. Contact: [Sam! X](https://t.me/TELLYHUBSUPPORTS)**",
             disable_web_page_preview=True,
             quote=True,
         )
